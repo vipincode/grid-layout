@@ -1,0 +1,33 @@
+// Media Query
+
+@mixin mq($break) {
+    @if $break == "small" {
+        @media(min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+            @content;
+        }
+    }
+    @else if $break == "medium" {
+        @media(min-width: $breakpoint-md + 1) {
+            @content;
+        }
+    }
+    @else if $break == "large" {
+        @media(min-width: $breakpoint-lg) {
+            @content;
+        }
+    }
+    @else {
+        @error "Whoops, No value would be retrived for `#{$break}`";
+    }
+}
+
+// Generating grid
+
+@mixin grid-cols($size, $grid-columns) {
+	@for $i from 1 through $grid-columns {
+		.col-#{$size}-#{$i}-#{$grid-columns} {
+			width: percentage($i / $grid-columns);
+            float: left;
+		}
+	}
+}

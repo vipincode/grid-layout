@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $black;
+  font-size: $base-font--size;
+  line-height: $base--line / $base-font--size;
+}
+
+h1 {
+  color: #555;
+  font-size: em(52px);
+  margin-bottom: em(34px, 52px);
+}
+
+h3 {
+  font-size: em(21px);
+  font-style: italic;
+  margin-bottom: em(25px, 21px);
+}
+
+p {
+  font-style: normal;
+  font-size: em(21px);
+  font-weight: $font-weight--medium;
+}
+
+// Genrating Margin and padding
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m#{str-slice($side, 0, 1)}-#{$space} {
+      margin-#{$side}: #{$space}px;
+    }
+  
+    .p#{str-slice($side, 0, 1)}-#{$space} {
+      padding-#{$side}: #{$space}px;
+    }
+  }
+}

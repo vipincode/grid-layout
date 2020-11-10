@@ -1,0 +1,53 @@
+[33mcommit 2b830d719b471844b2f0e6de979e37639b57fd8d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Fri Aug 7 08:33:08 2020 +0530
+
+    Gitignore file updated for other extensiom
+
+[33mcommit b59ee3661dd442ec05ed52f62a40c5ca2c7f74a1[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Fri Aug 7 08:21:58 2020 +0530
+
+    Udate git igonre to images
+
+[33mcommit 30d800a296ca899a65d37597fab7309cae43e91d[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Thu Aug 6 17:01:46 2020 +0530
+
+    Stop loading node_modules
+
+[33mcommit b2b4f6160acdb5d400a44eb56d5aeb789c9597ee[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Thu Aug 6 02:39:42 2020 -0700
+
+    Stop tracking changes to db_config
+
+[33mcommit 999c1d09bfc81d8290aac71d12637fa7bdd5fa59[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Thu Aug 6 02:20:05 2020 -0700
+
+    Add database configuration file
+
+[33mcommit 25f18c466d008f08f0fed1aa4929315777c81b01[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Thu Aug 6 02:15:49 2020 -0700
+
+    last index files updated
+
+[33mcommit f91fbde576c1c2d561a3c0f05f2e2762d51079cb[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Wed Aug 5 21:25:09 2020 -0700
+
+    Paragraph is edited again
+
+[33mcommit 62c1122fcbeb362ef658f2187090893580b047c6[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Wed Aug 5 21:11:26 2020 -0700
+
+    Inide HTML file i removes recentlty added paragraph
+
+[33mcommit 725dec95b80a342b2e032b022f3957882e0b8ac7[m
+Author: vipin singh <svipin174@gmail.com>
+Date:   Wed Aug 5 20:26:10 2020 -0700
+
+    initial commit

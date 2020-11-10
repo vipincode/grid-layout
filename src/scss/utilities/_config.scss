@@ -1,0 +1,39 @@
+// Google fonts
+
+$google-font--primary  : "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,600;0,900;1,200";
+
+// Fonts Sizes
+
+$font-weight--light      : 200;
+$font-weight--medium     : 300;
+$font-weight--large      : 600;
+$font-weight--x-large    : 900;
+
+
+// Colors
+
+$black     : #0b0b0b;
+$white     : #fff;
+
+// Color Palettes
+
+
+// Breakpoints
+
+$breakpoint-sm      : 1px;
+$breakpoint-md      : 768px;
+$breakpoint-lg      : 1200px;
+
+// Units
+
+$base-font--size    : 16px;
+$base--line         : 24px;
+
+// Margins
+
+$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100); 
+// Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right); 
+// Leave this variable alone
+
+

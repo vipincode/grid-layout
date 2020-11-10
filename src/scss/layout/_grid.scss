@@ -1,0 +1,26 @@
+.grid {
+  @extend %clearfix;
+    &__item {
+        padding: em(20px);
+        background-color: $black;
+        margin: em(20px);
+        
+        h3 {
+            color: $white;
+        }
+
+        p {
+            color: $white;
+        }
+    }
+}
+
+// Create Grid all viewport size
+
+@include mq(medium) {
+  @include grid-cols(md, 12);
+}
+
+@include mq(large) {
+  @include grid-cols(lg, 12);
+}

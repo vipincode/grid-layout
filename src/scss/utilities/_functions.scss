@@ -1,0 +1,13 @@
+
+// Imports google fonts with existing functions
+
+
+@if variable-exists(google-font--primary) {
+    @import url($google-font--primary);
+}
+
+// px to em units function
+
+@function em($target, $context: $base-font--size) {
+    @return ($target / $context) * 1em;
+}
